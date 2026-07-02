@@ -9,7 +9,7 @@ Redmine::Plugin.register :redmine_attachment_bulk_delete do
               'Checkboxen + "Auswahl loeschen" in der Issue-Ansicht (Bereich Anhaenge) ' \
               'und auf der Anhang-Bearbeiten-Seite (/attachments/<type>/<id>/edit).'
   version '1.0.0'
-  url ''
+  url 'https://github.com/admnwrk/redmine_attachment_bulk_delete'
   requires_redmine version_or_higher: '6.0.0'
 end
 
