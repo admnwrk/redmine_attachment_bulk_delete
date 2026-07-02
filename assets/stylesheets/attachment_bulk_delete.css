@@ -1,0 +1,71 @@
+/* redmine_attachment_bulk_delete – UI-Styles */
+
+/* Steuer-Zelle (Checkbox / Papierkorb) */
+td.abd-ctrl {
+  white-space: nowrap;
+  vertical-align: top;
+  padding-right: 6px;
+  width: 1%;
+}
+
+td.abd-ctrl input.abd-cb {
+  margin: 2px 4px 0 0;
+  vertical-align: middle;
+}
+
+/* Papierkorb-Button pro Zeile (edit_all) – als Icon-Button ohne Rahmen */
+button.abd-row-del {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 0 2px;
+  vertical-align: middle;
+  color: #b00;
+}
+button.abd-row-del:hover {
+  filter: brightness(0.8);
+}
+
+/* Toolbar */
+.abd-toolbar {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 8px;
+}
+
+.abd-toolbar-block {
+  display: flex;
+  margin: 8px 0 4px 0;
+}
+
+.abd-selectall {
+  font-size: 0.9em;
+  color: #555;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.abd-selectall input {
+  margin-right: 3px;
+  vertical-align: middle;
+}
+
+/* "Auswahl löschen"-Button – dezent, aber als destruktiv erkennbar */
+button.abd-del-btn {
+  cursor: pointer;
+  padding: 2px 10px;
+  border: 1px solid #c44;
+  border-radius: 3px;
+  background: #fff5f5;
+  color: #a00;
+  font-size: 0.9em;
+  line-height: 1.4;
+}
+button.abd-del-btn:hover {
+  background: #ffe9e9;
+  border-color: #a00;
+}
+button.abd-del-btn:active {
+  background: #ffdcdc;
+}
