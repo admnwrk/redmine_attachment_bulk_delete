@@ -32,11 +32,8 @@ anbietet).
 ## Installation
 
 ```bash
-# im Redmine-Root
-cd plugins
-# ZIP entpacken -> plugins/redmine_attachment_bulk_delete/
-cd ..
-# Neustart genügt (keine Migration nötig – keine DB-Änderungen)
+cd ./plugins
+git clone https://github.com/admnwrk/redmine_attachment_bulk_delete.git
 ```
 
 Im Docker-Compose-Setup: Ordner ins Plugins-Volume legen und den
@@ -53,4 +50,4 @@ Assets werden von Redmine beim Start automatisch nach
 
 ## Version
 
-1.0.0
+1.0.0 Initiale Version
